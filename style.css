@@ -49,3 +49,35 @@ nav .droite p {
     cursor: pointer;
 }
 /* Fin de la barre de navigation */
+
+/* Les films et séries */
+.films-et-series {
+    background-color: #191A1A;
+    padding: 25px;
+}
+.films-et-series .section {
+    margin-bottom: 55px;
+}
+
+.films-et-series .section h2 {
+    color: #fff;
+}
+
+.films-et-series .section .list {
+    display: flex;
+    overflow-x: auto;
+}
+
+.films-et-series .section a {
+    padding-left: 5px;
+    transition: transform 0.25s;
+}
+
+.films-et-series .section a:hover {
+    transform: scale(1.05);
+}
+
+.films-et-series .section a img {
+    height: 140px;
+}
+/* Fin des films et séries */
