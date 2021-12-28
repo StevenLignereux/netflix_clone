@@ -81,3 +81,17 @@ nav .droite p {
     height: 140px;
 }
 /* Fin des films et séries */
+
+/* Pied de page */
+footer {
+    background-color: #191A1A;
+    padding: 25px;
+    color: #909191;
+}
+
+footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Fin du pied de page */
